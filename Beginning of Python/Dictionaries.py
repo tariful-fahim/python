@@ -24,14 +24,14 @@ print(student)
 
 #del method
 
-#del student['phone']
-#print(student)
+del student['phone']
+print(student)
 
 #pop method
 # In Dictionaries 'pop' method expect at least one argument.
 
-#age = student.pop('age');
-#print(age)
+age = student.pop('age');
+print(age)
 
 
 #number of keys
