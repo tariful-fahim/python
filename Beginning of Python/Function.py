@@ -18,6 +18,10 @@ def fibo(n):
 
 print(fibo(20))
 
+#What *args allows you to do is take in more 
+# arguments than the number of formal arguments that you previously defined.
+
+#**kwargs in function definitions in python is used to pass a keyworded, variable-length argument list
 
 def student_info(*args, **kwargs):
     print(args)
